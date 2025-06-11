@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 0;
+}
+
+#heading {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #2ecc71;
+}
+
+#Add {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#Add:hover {
+  background-color: #34495e;
+}
+
+#list {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f6f7;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.item:hover {
+  background-color: #e3ebf0;
+}
+
+span {
+  font-size: 16px;
+  flex-grow: 1;
+  word-break: break-word;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:nth-child(1) {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button:nth-child(2) {
+  background-color: #f1c40f;
+  color: black;
+}
